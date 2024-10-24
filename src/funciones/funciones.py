@@ -44,7 +44,7 @@ def numeroespecial(n:int,k:int):
         raise Exception("El primer número tiene que ser mayor o igual que el segundo")
     else:
         parte1 = 1/factorial(k)
-        while i<k:
+        while i<=k:
             parte2 = parte2 + combinatorio(k + 1, i + 1)*(-1)**i*(k - i)**n
             i = i + 1
         return(parte1*parte2)
