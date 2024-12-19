@@ -195,4 +195,5 @@ def dfs(graph, start, goal, path=None):
     return None
     dfs_path = dfs(red_genica, kras, pik3ca)
     print(f"Recorrido DFS desde KRAS hasta PIK3CA: {dfs_path}")
+
     
